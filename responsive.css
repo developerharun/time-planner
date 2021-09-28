@@ -1,0 +1,233 @@
+@media (max-width: 1024px){
+    .container{
+        max-width: 100%;
+    }
+    /* header css */
+    .btn {
+        width: 15%;
+    }
+    .nav {
+        width: 55%;
+    }
+    .header{
+        padding: 0 20px;
+    }
+    .nav ul{
+        text-align: center;
+    }
+    .content {
+        padding: 90px 25px;
+    }
+    .content-text h5 {
+        margin-bottom: 10px;
+        font-size: 35px;
+        margin-top: -10px;
+    }
+    .service {
+        padding: 90px 40px;
+    }
+    .title h1 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .s-item {
+        width: 48%;
+    }
+    .s-item:nth-child(3n+3) {
+        margin-right: 2%;
+    }
+    .s-item:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .plan-section {
+        padding: 50px 40px;
+    }
+    .team {
+        padding: 90px 40px;
+    }
+    .newsletter {
+        padding: 90px 0;
+    }
+    .about {
+        padding: 90px 25px;
+    }
+    .about-content {
+        width: 49%;
+        margin-right: 2%;
+    }
+    .a-text {
+        width: 47%;
+        padding: 0;
+        margin-left: 3%;
+        padding-top: 10px;
+    }
+    .testimonial {
+        padding: 90px 25px;
+    }
+    .contact {
+        padding: 50px 25px;
+    }
+}
+@media (max-width: 768px){
+    .header {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .logo {
+        width: 100%;
+        float: inherit;
+        text-align: center;
+    }
+    .logo img {
+        width: 50px;
+        padding: 0;
+        float: inherit;
+        margin-right: 5px;
+        position: relative;
+        top: 15px;
+    }
+    .nav {
+        width: 80%;
+    }
+    .nav ul {
+        text-align: start;
+    }
+    .btn {
+        width: 20%;
+    }
+    .banner {
+        padding: 120px 0;
+    }
+    .banner h5 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .banner h1 {
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .banner a {
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .content {
+        padding: 55px 35px;
+    }
+    .content-text h5 {
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+    .content-text p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .service {
+        padding: 50px 40px;
+    }
+    .title h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .title p {
+        font-size: 25px;
+    }
+    .s-text h5 {
+        font-size: 24px;
+    }
+    .plan-section .title h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .title p {
+        font-size: 20px;
+        max-width: 80%;
+        margin: auto;
+    }
+    .plan {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .plan-section {
+        padding: 50px 70px;
+    }
+    .team .title h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .member-bio h5 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .member-bio p {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .team {
+        padding: 50px 40px;
+    }
+    .newsletter {
+        padding: 50px 0;
+    }
+    .newsletter .title p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .newsletter .title h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .about {
+        padding: 50px 25px;
+    }
+    .a-title h5 {
+        font-size: 40px;
+    }
+    .a-content p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .a-text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .a-text h5 {
+        margin-bottom: 10px;
+    }
+    .about-top {
+        margin-bottom: 45px;
+    }
+    .testimonial .title h2 {
+        font-weight: 400;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .testimonial-content {
+        margin-top: 30px;
+    }
+    .t-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .t-img img {
+        width: 67px;
+    }
+    .contact {
+        padding: 50px;
+    }
+    .map {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+        padding: 50px 30px;
+    }
+    .footer {
+        height: 25px;
+    }
+    .footer p {
+        line-height: 60px;
+    }
+}
